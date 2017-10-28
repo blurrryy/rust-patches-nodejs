@@ -1,0 +1,17 @@
+{
+  "name": "rust-updates",
+  "version": "0.0.1",
+  "description": "fetching rust updates from my mongodb collection",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Rienas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "json-update": "^3.0.0",
+    "mongodb": "^2.2.33"
+  }
+}
