@@ -52,10 +52,3 @@ module.exports.checkUpdate = (callback) => {
 module.exports.getAll = (callback) => {
     getData(d => callback(d))
 }
-
-
-
-
-
-
-

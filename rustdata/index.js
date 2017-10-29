@@ -2,7 +2,6 @@ const rust = require('./lib');
 const events = require('events');
 const eventEmitter = new events.EventEmitter();
 
-
 class Change {
     constructor(c) {
         this.cType = c[0];
