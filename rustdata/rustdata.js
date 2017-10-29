@@ -1,6 +1,6 @@
 const mongoClient = require("mongodb").MongoClient;
 const json = require('json-update');
-const conf = require('./rustconf.json');
+const conf = require('../rustconf.json');
 const mongoUrl = "mongodb://localhost:27017/rust";
 
 const updateConf = function (latest) {

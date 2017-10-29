@@ -9,7 +9,6 @@ module.exports.crawlData = (callback) => {
     })
         
     py.stdout.on('end', () => {
-        console.log('Patch-Notes up to date.');
         callback(true);
     })
 }
